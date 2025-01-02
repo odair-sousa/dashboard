@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
 
 html,
 body,
@@ -6,13 +6,13 @@ body,
 .app,
 .content {
   height: 100%;
-  width: 100%
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .app {
   display: flex;
   position: relative;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -29,7 +29,7 @@ body,
   background: #888;
 }
 
-/* handle on Over */
-::-webkit-scrollbar-track:hover {
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
